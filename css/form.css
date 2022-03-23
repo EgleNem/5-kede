@@ -1,0 +1,26 @@
+.form {
+    width: 100%;
+    font-size: 20px;
+    text-align: right;
+    
+
+}
+.form > .form-row { 
+    width: 100% ;
+    margin: 30 px;
+
+
+}
+.form > .form-row:last-of-type { 
+    margin-bottom: 0;}
+
+.form > .form-row > .label {
+    width: 100%;
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+.form > .form-row > .input {
+    width: 100%;
+
+}

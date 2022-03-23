@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEDE</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="./favicon/site.webmanifest">
+<link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/form.css">    
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <header>
-        <img src="/logo1.jpg" alt="logotipas">
+        <img class="logo" src="./img/logo1.jpg" alt="logotipas">
         <nav>
             <a>Home</a>
             <a>Shop</a>
@@ -18,15 +27,33 @@
             <a>News</a>
             <a>Elements</a>
         </nav>
+        <img src="./img/Screenshot 2022-03-23 at 18.48.33.png" alt="">
     </header>    
-    <main>
-        <img src="./kede.png" alt="kedute"> 
-        <div class="align-center">
-            <p>Limited Edition</p>
-            <h1>Simple Men's Clothing Collection</h1>
-            <p>Shop Now</p>
+    <main class="container">
+       <div class="pages"> 
+           <img class="kede1" src="./img/kede.png" alt="kedute"> 
+            <div class="right-column" >
+                <p>Limited Edition</p>
+                <h1 class="main title" >Simple Men's Clothing Collection</h1>
+                <p>Shop Now</p>
+            </div>
         </div>
-       
+        <div style="margin-top: 100px;" class="pages">
+           <div class="left-column"> 
+               <form class="form">
+                <div class="form-row">
+                    <label for="" class="label">Email</label>
+                    <input type="text" class="input">
+                </div>   
+                <div class="form-row">
+                    <label for="" class="label">Your message</label>
+                    <input type="text" class="input">
+                </div>    
+            </form>
+        </div>
+            <div class="kede2"> <img src="./img/kede2.png" alt="kedike"></div>
+        
+        </div>
     </main>
 </body>
 </html>
