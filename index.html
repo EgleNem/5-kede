@@ -27,28 +27,34 @@
             <a>News</a>
             <a>Elements</a>
         </nav>
-        <img src="./img/Screenshot 2022-03-23 at 18.48.33.png" alt="">
+        <img class="head-btn" src="./img/Screenshot 2022-03-23 at 18.48.33.png" alt="">
     </header>    
     <main class="container">
        <div class="pages"> 
            <img class="kede1" src="./img/kede.png" alt="kedute"> 
             <div class="right-column" >
-                <p>Limited Edition</p>
-                <h1 class="main title" >Simple Men's Clothing Collection</h1>
-                <p>Shop Now</p>
+                <p class="p">Limited Edition</p>
+                <h1 class="main-title" >Simple Chairs Collection</h1>
+                <p class="p">Shop Now</p>
             </div>
         </div>
         <div style="margin-top: 100px;" class="pages">
            <div class="left-column"> 
                <form class="form">
                 <div class="form-row">
-                    <label for="" class="label">Email</label>
-                    <input type="text" class="input">
+                    <label for="email" class="label">Email</label>
+                    <input id="email" type="email" class="input" required placeholder="your email">
                 </div>   
                 <div class="form-row">
                     <label for="" class="label">Your message</label>
-                    <input type="text" class="input">
-                </div>    
+                    <input type="text" required class="input" placeholder="questions, issues, comments">
+                </div> 
+                <div class="form-row">
+                    <label for="file" class="label">Add file</label>
+                    <input style="text-align: right;" type="file" required class="input">
+                </div>     
+                <div class="form-row">
+                    <button class="btn">Send</button></div> 
             </form>
         </div>
             <div class="kede2"> <img src="./img/kede2.png" alt="kedike"></div>
